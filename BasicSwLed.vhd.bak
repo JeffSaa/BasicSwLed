@@ -1,0 +1,8 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity BasicSwLed is
+	Port(
+		inputPort: in STD_LOGIC_VECTOR(3 downto 0);
+		outputPort: in STD_LOGIC_VECTOR(6 downto 0)
+	);
+end BasicSwLed;
